@@ -21,6 +21,8 @@ function calc(a, b) {
 
 // console.log(calc(1, 1));
 
+// call stack handles the order of tasks (functions) to do, like plates in a stack, while heap memory stores big things like objects and arrays.
+
 // garbage collection
 var garbage = {
   firstName: "abc",
