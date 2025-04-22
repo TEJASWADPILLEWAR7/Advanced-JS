@@ -152,6 +152,9 @@ greetSteve();
 // Currying
 
 // Ek function jo multiple arguments accept karta tha, usko chhote-chhote functions mein tod dena, jahan har function ek hi argument leta hai.
+const multipy = (a, b) => a * b;
+const curriedMultipy = (a) => (b) => a * b;
+console.log(curriedMultipy);
 
 // ------------------------------------------------------------------
 
