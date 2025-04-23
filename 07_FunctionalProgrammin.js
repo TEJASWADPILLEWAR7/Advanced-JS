@@ -127,3 +127,11 @@ console.log(makePositive(-50));
 
 // Arity = number of arguments a function is designed to take.
 // Ek function kitne arguments accept karta hai, uski count.
+
+// ------------------------------------------------------------------
+
+// Keep in mind always =>
+// Clear + Understandable
+// Easy to extendsEasy to Maintain
+// Memory Efficient
+// DRY
