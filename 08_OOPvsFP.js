@@ -40,7 +40,7 @@ myDog.bark(); // Tommy barks!
 
 // OOP vs FP
 
-Object-Oriented Programming (OOP)
+// Object-Oriented Programming (OOP)
 // “Sab kuch object hai — data + behavior dono ek hi jagah!”
 
 // Core Idea:
@@ -96,10 +96,8 @@ const drive = (car) => `${car} is driving`;
 
 console.log(drive("BMW"));
 
-
 // Final Verdict:
 // OOP = Better when things are stateful, interactive, object-like (e.g., UI components, games)
 // FP = Better when things are data-driven, logic-based, and functional (e.g., APIs, calculations, React, Redux)
 
 // Modern JavaScript lets you mix both, but FP is rising fast in frontend world.
-

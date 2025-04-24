@@ -86,7 +86,7 @@ class Car {
   }
 }
 
-const car1 = new Car("mercedes"); // 👈 new keyword
+const car1 = new Car("mercedes"); // new keyword
 car1.drive(); // mercedes is driving
 
 // What new does:
@@ -111,7 +111,7 @@ function Student(name) {
 
 // Prototype pe ek common method diya
 Student.prototype.sayHi = function () {
-  console.log("Hi, I’m " + this.name);
+  console.log("Hi, Im " + this.name);
 };
 
 const s1 = new Student("Tejas");

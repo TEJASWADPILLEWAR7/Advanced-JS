@@ -74,7 +74,7 @@ user.greet(); // Output: Hello, undefined
 // this inside event listeners
 
 // document.getElementById("btn").addEventListener("click", function () {
-//   console.log(this); // 👉 button element ko refer karega
+//   console.log(this); // button element ko refer karega
 // });
 
 // Yahan this us HTML element ko point karta hai jispe event laga hai.
@@ -158,8 +158,8 @@ console.log(curriedMultipy);
 
 // ------------------------------------------------------------------
 
-// 🎯 Real-world analogy:
-// Tu ek pizza shop hai 🍕
+// Real-world analogy:
+// Tu ek pizza shop hai
 
 // Pehla function poochhta hai: "Kaunsi base chahiye?"
 

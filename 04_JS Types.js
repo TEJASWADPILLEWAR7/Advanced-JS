@@ -43,8 +43,8 @@ let b = a;
 
 b = 10;
 
-// console.log(a); // 👉 5 (original safe)
-// console.log(b); // 👉 10
+// console.log(a); // 5 (original safe)
+// console.log(b); // 10
 
 // ------------------------------------------------------------------
 
@@ -57,7 +57,7 @@ let obj2 = obj1;
 
 obj2.name = "Stark";
 
-// console.log(obj1.name); // 👉 Stark (original bhi badal gaya)
+// console.log(obj1.name); // Stark (original bhi badal gaya)
 
 // ------------------------------------------------------------------
 

@@ -23,11 +23,11 @@ class Car extends Vehicle {
 // JS me ek class sirf ek hi parent class se extends kar sakti hai.
 
 // class A {}
-// class B extends A {} ✅
-// class C extends A, B {} ❌ // not allowed in JS
+// class B extends A {}
+// class C extends A, B {} // not allowed in JS
 // Toh ab agar mujhe multiple classes ka behaviour chahiye ek class ke andar — toh kya kare?
 
-// ➡️ Mixins ka use karo! 🔧
+// Mixins ka use karo!
 
 let canFly = {
   fly() {
@@ -49,7 +49,7 @@ class Animal {
 
 class Duck extends Animal {}
 
-Object.assign(Duck.prototype, canFly, canSwim); // Yeh hai magic 💥
+Object.assign(Duck.prototype, canFly, canSwim); // Yeh hai magic
 
 let donald = new Duck();
 donald.fly(); // Flying...
@@ -86,13 +86,13 @@ class Animal {
 
 class Dog extends Animal {
   speak() {
-    console.log("Dog barks 🐶");
+    console.log("Dog barks");
   }
 }
 
 class Cat extends Animal {
   speak() {
-    console.log("Cat meows 🐱");
+    console.log("Cat meows");
   }
 }
 
